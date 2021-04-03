@@ -56,7 +56,7 @@ app.post("/" , (req , res) =>{
     })
   })
   // console.log(fname , lname , email);
-  // request.write(jsonData);
+  request.write(jsonData);
   request.end();
 })
 
